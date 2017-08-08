@@ -127,6 +127,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.default_network=9 \
 	ro.ril.def.preferred.network=9
 
+PRODUCT_PROPERTY_OVERRIDES += \
+	qcom.bluetooth.soc=smd
+
 # Audio Configuration
 # FIXME: Remove persist.audio.handset.mic and persist.audio.fluence.mode
 #        while switching new audio HAL from legacy HAL
